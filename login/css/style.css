@@ -1,0 +1,454 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap");
+* {
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+  text-decoration: none;
+  object-fit: cover;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+.yvr {
+  display: flex;
+  height: 48px;
+  width: 48px;
+  background-color: #c4c4c4;
+  border-radius: 50%;
+}
+.base {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+.right-base {
+  display: flex;
+  flex-direction: column;
+  margin-left: 78px;
+  margin-top: 150px;
+}
+.right-base h1 {
+  font-weight: 600;
+  font-size: 56px;
+  color: #111111;
+}
+.right-base h2 {
+  font-weight: 500;
+  font-size: 48px;
+  color: #333333;
+}
+.line {
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+.line::after,
+.line::before {
+  content: "";
+  border: 1px solid black;
+  flex: 1;
+}
+.line:not(:empty)::before {
+  margin-right: 0.25em;
+}
+.line:not(:empty)::after {
+  margin-left: 0.25em;
+}
+.line-base {
+  width: 393px;
+  margin-top: 39px;
+}
+.signup-btn {
+  margin-top: 40px;
+}
+
+.signup-btn-base {
+  margin-top: 16px;
+}
+.signup-btn-base a {
+  text-align: center;
+  display: inline-flex;
+  color: #333333;
+  padding-top: 3px;
+  border: 1px solid black;
+  column-gap: 15px;
+  border-radius: 50px;
+  padding: 13px 64px;
+}
+.signup-btn-bottom {
+  margin-top: 40px;
+}
+
+.signup-btn-base-bottom {
+  margin-top: 16px;
+}
+.signup-btn-base-bottom a {
+  text-align: center;
+  display: inline-flex;
+  color: white;
+  padding-top: 3px;
+  border: 1px solid black;
+  column-gap: 15px;
+  border-radius: 50px;
+  padding: 13px 64px;
+  background-color: black;
+}
+.right-base h3 {
+  font-weight: 400;
+  font-size: 14px;
+  color: #333333;
+  width: 370px;
+  margin-top: 10px;
+}
+.right-base h3 span {
+  text-decoration: underline;
+}
+.right-base h4 {
+  font-weight: 500;
+  font-size: 18px;
+  margin-top: 64px;
+  color: #333333;
+}
+footer ul {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+  margin-top: 18px;
+  margin-bottom: 18px;
+}
+footer ul a {
+  color: #111111;
+}
+/* creat sayfası css */
+.nav-create {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 17px;
+}
+.bos {
+  width: 50px;
+}
+.create-login-btn {
+  margin-right: 40px;
+  display: flex;
+  border: 1px solid black;
+  border-radius: 50px;
+}
+.create-login-btn a {
+  padding: 8px 25px;
+  color: #111111;
+}
+.container-create {
+  width: 1220px;
+  margin: 96px auto;
+}
+.create-section-top-base {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+.create-section-top-right-container {
+  width: 545px;
+  padding: 48px;
+  margin: 0 auto;
+}
+.create-section-top-right-baslık {
+  display: flex;
+  justify-content: space-between;
+}
+.create-section-top-right-baslık h1 {
+  font-weight: 500;
+  font-size: 32px;
+  color: #333333;
+}
+.create-section-top-right-baslık h2 {
+  font-weight: 400;
+  font-size: 16px;
+  text-decoration-line: underline;
+  color: #111111;
+  margin-top: 10px;
+}
+.create-section-top-right-inputs {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+.create-section-top-right-inputs label {
+  margin-top: 24px;
+  font-weight: 400;
+  font-size: 16px;
+  color: #666666;
+}
+.create-section-top-right-inputs label:hover {
+  opacity: 0.6;
+}
+.create-section-top-right-inputs input {
+  border: 1px solid rgba(102, 102, 102, 0.35);
+  border-radius: 12px;
+  height: 56px;
+  margin-top: 7px;
+}
+.create-section-top-right-chcked {
+  display: flex;
+  column-gap: 15px;
+}
+.create-section-top-right-chcked label {
+  margin-top: 15px;
+  font-weight: 400;
+  font-size: 16px;
+  color: #333333;
+}
+.create-section-top-right-chcked label u {
+  text-decoration: underline;
+}
+.create-section-top-right-accountbtn {
+  height: 64px;
+  width: 100%;
+  background: #1111113d;
+  border-radius: 40px;
+  text-align: center;
+
+  display: flex;
+  align-items: center;
+  margin-top: 32px;
+}
+.create-section-top-right-accountbtn a {
+  color: white;
+  font-size: 22px;
+  font-weight: 500;
+  margin: auto;
+}
+.create-section-top-right-continuebtn {
+  margin-top: 32px;
+}
+.create-section-top-right-continuebtn a {
+  width: 100%;
+  text-align: center;
+  display: inline-flex;
+  color: #333333;
+  padding-top: 3px;
+  border: 1px solid black;
+  column-gap: 10px;
+  border-radius: 50px;
+  padding: 13px 90px;
+}
+.column {
+  margin-top: 40px;
+  display: flex;
+  flex-direction: column;
+}
+.column a {
+  font-weight: 400;
+  font-size: 14px;
+  color: #666666;
+}
+.column h1 {
+  font-weight: 400;
+  font-size: 16px;
+}
+.column ul li {
+  padding-top: 8px;
+}
+.create-section-bottom-left {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+.create-section-bottom-base {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+}
+.create-section-bottom-right {
+  margin-top: 40px;
+  margin-right: 40px;
+}
+.footer-create {
+  display: flex;
+  justify-content: space-between;
+}
+.footer-create-left {
+  display: flex;
+  justify-content: space-between;
+  gap: 56px;
+  margin-top: 41px;
+}
+.footer-create-left h1 {
+  font-weight: 400;
+  font-size: 14px;
+  color: #333333;
+}
+.footer-create-left ul {
+  display: flex;
+  justify-content: space-around;
+  column-gap: 24px;
+}
+
+.footer-create-left a {
+  font-weight: 400;
+  font-size: 14px;
+  color: #333333;
+}
+.footer-create-right {
+  display: flex;
+  margin-top: 41px;
+  gap: 35px;
+}
+.footer-create-right select {
+  border: none;
+  height: 30px;
+  margin: auto;
+}
+.footer-create-right-img {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 35px;
+}
+.footer-create-right-img img {
+  align-items: center;
+}
+.line-create {
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+.line-create::after,
+.line-create::before {
+  content: "";
+  border: 1px solid black;
+  flex: 1;
+}
+.line-create:not(:empty)::before {
+  margin-right: 0.25em;
+}
+.line-create:not(:empty)::after {
+  margin-left: 0.25em;
+}
+.line-create-base {
+  margin-top: 39px;
+}
+.signup-container {
+  width: 650px;
+  margin: 0px auto;
+}
+.signup-base {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.yvrlk {
+  display: flex;
+  height: 48px;
+  width: 48px;
+  background-color: #c4c4c4;
+  border-radius: 50%;
+  margin: 0px auto;
+}
+.signup-base h1 {
+  font-weight: 500;
+  font-size: 32px;
+}
+.signup-box-btn {
+  margin-top: 16px;
+}
+.signup-box-btn a {
+  height: 64px;
+  text-align: center;
+  display: inline-flex;
+  color: #333333;
+  padding-top: 3px;
+  border: 1px solid black;
+  column-gap: 15px;
+  border-radius: 50px;
+  padding: 18px 160px;
+}
+.signup-base h2 {
+  font-weight: 500;
+  font-size: 18px;
+  color: #333333;
+}
+.signup-forms-base {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.signup-container-bottom {
+  width: 650px;
+  margin: 0px auto;
+}
+.signup-forms {
+  display: flex;
+  flex-direction: column;
+}
+.signup-forms label {
+  font-weight: 400;
+  font-size: 16px;
+  color: #666666;
+  margin-top: 32px;
+}
+.signup-forms input {
+  border: 1px solid rgba(102, 102, 102, 0.35);
+  border-radius: 12px;
+  height: 56px;
+}
+.signup-forms-base h1 {
+  font-weight: 400;
+  font-size: 14px;
+  color: #666666;
+}
+.gender-base {
+  display: flex;
+  column-gap: 50px;
+}
+.gender {
+  margin-top: 12px;
+}
+.gender-soru {
+  margin-top: 40px;
+}
+.gender-soru span {
+  opacity: 0.6;
+}
+.months {
+  display: flex;
+  flex-direction: column;
+}
+.time-base {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  column-gap: 15px;
+}
+.time-base select {
+  height: 56px;
+  width: 180px;
+  border: 1px solid rgba(102, 102, 102, 0.35);
+  border-radius: 12px;
+  text-align: center;
+}
+.accept {
+  margin-top: 20px;
+  display: flex;
+}
+.accept label {
+  font-weight: 400;
+  font-size: 16px;
+  color: #333333;
+  margin-left: 15px;
+}
+.sozlesme a {
+  text-decoration: underline;
+  color: #111111;
+  font-weight: 400;
+  font-size: 16px;
+}
+.sozlesme h1 {
+  font-weight: 400;
+  font-size: 16px;
+  color: #333333;
+}
+.sozlesme {
+  margin-top: 20px;
+}
+.robot {
+  display: flex;
+  justify-content: space-between;
+  width: 363px;
+  border: solid 1px black;
+}
